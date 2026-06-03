@@ -1,0 +1,36 @@
+package assignment_no2;
+
+// Q1. Write a Java program to demonstrate encapsulation by creating a Student class with private data members and public getter and setter methods.
+
+class Student {
+    private int rollNo;
+    private String name;
+
+    public int getRollNo() {
+        return rollNo;
+    }
+
+    public void setRollNo(int rollNo) {
+        this.rollNo = rollNo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+public class StudentEncapsulation {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.setRollNo(101);
+        s.setName("Aditya");
+
+        System.out.println("Roll No: " + s.getRollNo());
+        System.out.println("Name: " + s.getName());
+    }
+}
