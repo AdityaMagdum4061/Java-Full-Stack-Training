@@ -4,5 +4,5 @@
 /**
  * 
  */
-module assignment_no_1 {
+module ExceptionDemo {
 }

@@ -1,4 +1,4 @@
-package opps_concept;
+package oops_concept;
 
 class Animal {
     void eat() {
