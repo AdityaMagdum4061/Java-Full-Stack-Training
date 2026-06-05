@@ -11,11 +11,14 @@ public class ArmstrongNumber {
         int num = sc.nextInt();
 
         int original = num;
+        String str=num+"";
+        int size=str.length();
         int sum = 0;
 
         while (num != 0) {
             int digit = num % 10;
-            sum += digit * digit * digit;
+            
+            sum += Math.pow(digit,size);;
             num /= 10;
         }
 

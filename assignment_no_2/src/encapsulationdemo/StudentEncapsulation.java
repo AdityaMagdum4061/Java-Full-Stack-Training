@@ -1,4 +1,4 @@
-package assignment_no2;
+package encapsulationdemo;
 
 // Q1. Write a Java program to demonstrate encapsulation by creating a Student class with private data members and public getter and setter methods.
 
