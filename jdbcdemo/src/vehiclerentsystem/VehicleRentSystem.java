@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 public class VehicleRentSystem {
 
-    static final String URL =
-            "jdbc:mysql://localhost:3306/sitj2";
-
+    static final String URL ="jdbc:mysql://localhost:3306/sitj2";
     static final String USER = "root";
     static final String PASSWORD = "root";
 
@@ -75,9 +73,9 @@ public class VehicleRentSystem {
 
             ResultSet rs = st.executeQuery(sql);
 
-            System.out.println("\n---------------------------------------------");
-            System.out.println("ID\tNAME\tTYPE\tRENT\tAVAILABLE");
-            System.out.println("---------------------------------------------");
+            System.out.println("\n-------------------------------------------------");
+            System.out.println("ID\tNAME\t   TYPE\t\tRENT\tAVAILABLE");
+            System.out.println("-------------------------------------------------");
 
             while(rs.next()) {
 
