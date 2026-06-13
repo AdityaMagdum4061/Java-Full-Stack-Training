@@ -1,0 +1,16 @@
+com\test\HibernateExample.class
+com\test\TestManyToMany.class
+com\map\MappingDemo.class
+com\map\Answer.class
+com\example\Student.class
+com\map\Question.class
+com\test\Project.class
+com\test\AppInsert.class
+com\example\EmbedApp.class
+com\test\Department.class
+com\example\App.class
+com\example\Certificate.class
+com\test\Book.class
+com\test\Employee.class
+com\test\Author.class
+com\test\AppShow.class
